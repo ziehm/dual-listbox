@@ -763,5 +763,3 @@ class DualListbox {
 }
 
 window.DualListbox = DualListbox;
-export default DualListbox;
-export { DualListbox };
