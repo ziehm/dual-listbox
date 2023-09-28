@@ -739,7 +739,7 @@ class DualListbox {
 			newIndex -= 1;
 		} else if (
 			DIRECTION_DOWN === direction &&
-			oldIndex < selected.length - 1
+			oldIndex < selected.parentNode.childElementCount
 		) {
 			newIndex += 1;
 		}
